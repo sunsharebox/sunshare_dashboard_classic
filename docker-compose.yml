@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  sunshare_front:
+    image: vuejs/ci
+    container_name: sunshare_front
+    environment:
+      - ENV=DEV
+    ports:
+      - "127.0.0.1:8888:8080"
+    volumes:
+      - .:/app
+    working_dir: /app
+    #command: npm install && npm run dev

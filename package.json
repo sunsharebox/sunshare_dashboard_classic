@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "anychart": "^8.6.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "start": "^5.1.0",
     "vue": "^2.5.2",
